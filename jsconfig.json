@@ -1,0 +1,12 @@
+//jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "contentlayer/generated": ["./.contentlayer/generated"]
+      // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }
+  },
+  "include": [".contentlayer/generated"]
+  //          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+}
